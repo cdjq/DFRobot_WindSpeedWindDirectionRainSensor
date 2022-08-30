@@ -1,0 +1,40 @@
+
+#######################################
+# Syntax Map For DFRobot_WindSpeedWindDirectionRainSensor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_WindSpeedWindDirectionRainSensor	KEYWORD1
+DFRobot_WindSpeedWindDirectionRainSensor_UART	KEYWORD1
+DFRobot_WindSpeedWindDirectionRainSensor_IIC	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+getFirmwareVersion	KEYWORD2
+getPidVid	KEYWORD2
+getWindDirection	KEYWORD2
+getWindSpeed	KEYWORD2
+getMaxWindSpeed	KEYWORD2
+getRainfall	KEYWORD2
+getRawdata	KEYWORD2
+setRadiusAnemometer	KEYWORD2
+setRainAccumulatedValue	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+vid	LITERAL1
+pid	LITERAL1
+
