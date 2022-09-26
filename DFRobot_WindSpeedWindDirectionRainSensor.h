@@ -7,7 +7,6 @@
  * @author  [fary](feng.yang@dfrobot.com)
  * @version  V1.0
  * @date  2022-07-14
- * @get from https://www.dfrobot.com
  * @url  https://github.com/DFRobot/DFRobot_WindSpeedWindDirectionRainSensor
  */
 #ifndef __DFROBOT_WINDSPEEDWINFDIRECTIONRAINSENSOR_H__
@@ -155,14 +154,14 @@ public:
    * @brief  get firmware version
    * @return  Return  firmware version
    */
-  String getFirmwareVersion();
+  String getFirmwareVersion(void);
 
   /**
    * @brief 获取实时风向
    * 
    * @return 风向角度 单位：°
    */
-  float getWindDirection();
+  float getWindDirection(void);
 
   /**
    * @brief 获取指定时间内的平均风向
@@ -177,7 +176,7 @@ public:
    * 
    * @return 实时风速 单位:m/s
    */
-  float getWindSpeed();
+  float getWindSpeed(void);
 
   /**
    * @brief 获取指定时间内的平均风速
@@ -192,7 +191,7 @@ public:
    * 
    * @return 风速 单位:m/s 
    */
-  float getMaxWindSpeed();
+  float getMaxWindSpeed(void);
 
   /**
    * @brief 获取指定时间内测量的最大风速
@@ -207,7 +206,7 @@ public:
    * 
    * @return float 累计雨量
    */
-  float getRainfall();
+  float getRainfall(void);
 
   /**
    * @brief 获取指定时间内的累计雨量
@@ -248,7 +247,7 @@ private:
    * @brief  Get VID and PID
    * @return  Return  true:正确获取，false:获取数据失败或者获取数据错误
    */
-  bool getPidVid();
+  bool getPidVid(void);
   virtual uint8_t readRegister(uint8_t reg,void* pBuf, size_t size){};
   virtual uint16_t readRegister(uint16_t reg){};
   virtual uint8_t writeRegister(uint8_t reg,void* pBuf,size_t size){};

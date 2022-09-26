@@ -38,7 +38,8 @@ void setup(void)
   
   delay(1000);
   while(!Sensor.begin()){
-  Serial.println("failed");
+  Serial.println("Sensor init err!!!");
+  delay(1000);
   }
   Serial.print("vid:\t");
   Serial.println(Sensor.vid,HEX);

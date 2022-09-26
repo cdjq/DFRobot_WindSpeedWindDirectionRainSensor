@@ -7,7 +7,6 @@
  * @author  [fary](feng.yang@dfrobot.com)
  * @version  V1.0
  * @date  2022-08-23
- * @get from https://www.dfrobot.com
  * @url  https://github.com/DFRobot/DFRobot_WindSpeedWindDirectionRainSensor
  */
 #include "DFRobot_WindSpeedWindDirectionRainSensor.h"
